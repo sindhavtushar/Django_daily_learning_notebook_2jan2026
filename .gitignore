@@ -1,0 +1,25 @@
+# Virtual Environment (Specifically for your project)
+venv_django_learning/
+
+# Standard Python Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+db.sqlite3
+*.log
+local_settings.py
+media/
+static/
+
+# Environment variables / Secret keys
+.env
+
+# IDE specific (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
